@@ -43,7 +43,8 @@ public final class AmdScreenGuard {
 
     /** كل شاشات التطبيق: الاسم الظاهر ثم اسم الصنف الكامل. */
     private static final String[][] SCREENS = new String[][]{
-            { "Main", "com.pocketbuilder.libraries.MainActivity" }
+            { "Main", "com.pocketbuilder.libraries.MainActivity" },
+            { "AMD Report", "com.pocketbuilder.libraries.diag.AmdReport" }
     };
 
     private AmdScreenGuard() {
